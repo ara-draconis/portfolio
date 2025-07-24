@@ -1,0 +1,133 @@
+html {
+  background-color: #000000;
+}
+@font-face {
+  font-family: Lunar Escape;
+  src: url("https://cdn.glitch.global/d8977f35-971f-43ee-ac8a-d505cf64ba0c/Lunar Escape.ttf?v=1742942902044")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Power Clear;
+  src: url("https://cdn.glitch.global/d8977f35-971f-43ee-ac8a-d505cf64ba0c/Power Clear.ttf?v=1742941911579")
+    format("opentype");
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0.5vw;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+    margin-top: 20vw;
+  margin-left: 25vw;
+   margin-right: 25vw;
+}
+
+.titl {
+  position: absolute;
+  color: #8ca3ff;
+  font-family: Lunar Escape;
+  font-size: 5vw;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5vw;
+  opacity: 100%;
+    margin-bottom: 10vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+
+
+.container {
+  position: absolute;
+    margin-bottom: 10vw;
+  margin-top: 66vw;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 0.1vw;
+  left: 0.1vw;
+  margin: 5vw;
+  color: #8ca3ff;
+  font-size: 2vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  text-align: left;
+  margin-bottom: 5vw;
+  margin-top: 7vw;
+  margin-right: 20vw;
+}
+
+.hamburger{
+  position: fixed;
+  margin-left: 85vw;
+  margin-bottom: 0vw;
+  margin-top: 1vw;
+}
+
+ /* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 0;
+  width: 50vw;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 51vw;
+  top: -4vw;
+  overflow-y: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+
+.overlay-back {
+  position: absolute;
+  width: 100%; /* 100% width */
+  text-align: left; /* Centered text/links */
+  margin-left: 5vw;
+  margin-top: 5vw; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.overlay-content {
+  position: absolute;
+  width: 100%; /* 100% width */
+  text-align: left; /* Centered text/links */
+  margin-left: 7.5vw;
+  margin-top: 7.5vw; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 1vw;
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  font-family: Power Clear, sans-serif;
+  color: #ffffff;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 5vw;
+  left: 38vw;
+}
+

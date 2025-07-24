@@ -1,0 +1,1393 @@
+html {
+  background-color: #000000;
+}
+@font-face {
+  font-family: Lunar Escape;
+  src: url("https://cdn.glitch.global/d8977f35-971f-43ee-ac8a-d505cf64ba0c/Lunar Escape.ttf?v=1742942902044")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Power Clear;
+  src: url("https://cdn.glitch.global/d8977f35-971f-43ee-ac8a-d505cf64ba0c/Power Clear.ttf?v=1742941911579")
+    format("opentype");
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0.5vw;
+}
+
+img {
+  width: 100%;
+}
+
+.titl {
+  position: absolute;
+  color: #8ca3ff;
+  font-family: Lunar Escape;
+  font-size: 5vw;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5vw;
+  opacity: 100%;
+  margin-bottom: 10vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+/* Style the Image Used to Trigger Modal 1*/
+#myImg1 {
+  position: absolute;
+  margin-left: 2.25vw;
+  margin-top: 14.2vw;
+  border-radius: 0vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg1:hover {
+  opacity: 0.7;
+}
+
+.border1 {
+  position: absolute;
+  margin-left: 2vw;
+  margin-top: 14vw;
+}
+
+/* Style the Image Used to Trigger Modal 2*/
+#myImg2 {
+  position: absolute;
+  margin-left: 36.75vw;
+  margin-top: 14.2vw;
+  border-radius: 0vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2:hover {
+  opacity: 0.7;
+}
+
+.border2 {
+  position: absolute;
+  margin-left: 36.5vw;
+  margin-top: 14vw;
+}
+
+/* Style the Image Used to Trigger Modal 3*/
+#myImg3 {
+  position: absolute;
+  margin-left: 71.25vw;
+  margin-top: 14.2vw;
+  border-radius: 0vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg3:hover {
+  opacity: 0.7;
+}
+
+.border3 {
+  position: absolute;
+  margin-left: 71vw;
+  margin-top: 14vw;
+}
+
+/* Style the Image Used to Trigger Modal 4*/
+#myImg4 {
+  position: absolute;
+  margin-left: 2.25vw;
+  margin-top: 34.2vw;
+  border-radius: 0vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg4:hover {
+  opacity: 0.7;
+}
+
+.border4 {
+  position: absolute;
+  margin-left: 2vw;
+  margin-top: 34vw;
+}
+
+/* Style the Image Used to Trigger Modal 5*/
+#myImg5 {
+  position: absolute;
+  margin-left: 36.75vw;
+  margin-top: 34.2vw;
+  border-radius: 0vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg5:hover {
+  opacity: 0.7;
+}
+
+.border5 {
+  position: absolute;
+  margin-left: 36.5vw;
+  margin-top: 34vw;
+}
+
+/* Style the Image Used to Trigger Modal 5*/
+#myImg6 {
+  position: absolute;
+  margin-left: 71.25vw;
+  margin-top: 34.2vw;
+  border-radius: 0vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg6:hover {
+  opacity: 0.7;
+}
+
+.border6 {
+  position: absolute;
+  margin-left: 71vw;
+  margin-top: 34vw;
+}
+
+/* Style the Image Used to Trigger Modal 7*/
+#myImg7 {
+  position: absolute;
+  margin-left: 2.25vw;
+  margin-top: 54.2vw;
+  border-radius: 0vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg7:hover {
+  opacity: 0.7;
+}
+
+.border7 {
+  position: absolute;
+  margin-left: 2vw;
+  margin-top: 54vw;
+}
+
+/* Style the Image Used to Trigger Modal 5*/
+#myImg8 {
+  position: absolute;
+  margin-left: 36.75vw;
+  margin-top: 54.2vw;
+  border-radius: 0vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg8:hover {
+  opacity: 0.7;
+}
+
+.border8 {
+  position: absolute;
+  margin-left: 36.5vw;
+  margin-top: 54vw;
+}
+
+
+/* ---------------------------------------------------------*/
+
+/* The Modal 1 (background) */
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption1 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+  text-align: center;
+  font-family: Power Clear, sans-serif;
+color: #8ca3ff;
+  padding: 2vw 0;
+  height: 45vw;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content1,
+#caption1 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close1 {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides1 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 40vw;
+  width: auto;
+  padding: 4vw;
+  margin-top: -10vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover,
+.next1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  font-size: 2vw;
+  padding: 1.5vw 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+/* Caption text */
+.caption1-container {
+  text-align: center;
+  background-color: black;
+  padding: 1vw 3vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover1-shadow {
+  transition: 0.3s;
+}
+
+.hover1-shadow:hover {
+  box-shadow: 0 1vw 1.5vw 0 rgba(0, 0, 0, 0.2), 0 2vw 5vw 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------------------------*/
+
+/* The Modal 2 (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content2 (Image) */
+.modal-content2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+  text-align: center;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  padding: 2vw 0;
+  height: 45vw;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content2,
+#caption {
+  animation-name: zoom2;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom2 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close2 {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides2 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev2,
+.next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 40vw;
+  width: auto;
+  padding: 4vw;
+  margin-top: -10vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  right: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover,
+.next2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext2 {
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  font-size: 2vw;
+  padding: 1.5vw 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+/* Caption text */
+.caption2-container {
+  text-align: center;
+  background-color: black;
+  padding: 1vw 3vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+}
+
+img.demo2 {
+  opacity: 0.6;
+}
+
+.active2,
+.demo2:hover {
+  opacity: 1;
+}
+
+img.hover2-shadow {
+  transition: 0.3s;
+}
+
+.hover2-shadow:hover {
+  box-shadow: 0 1vw 1.5vw 0 rgba(0, 0, 0, 0.2), 0 2vw 5vw 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------------------------*/
+
+/* The Modal 3 (background) */
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+  text-align: center;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  padding: 2vw 0;
+  height: 45vw;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content3,
+#caption3 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close3 {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides3 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev3,
+.next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 40vw;
+  width: auto;
+  padding: 4vw;
+  margin-top: -10vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next3 {
+  right: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+/* Position the "next button" to the right */
+.prev3 {
+  left: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev3:hover,
+.next3:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext3 {
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  font-size: 2vw;
+  padding: 1.5vw 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+/* Caption text */
+.caption3-container {
+  text-align: center;
+  background-color: black;
+  padding: 1vw 3vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+}
+
+img.demo3 {
+  opacity: 0.6;
+}
+
+.active3,
+.demo3:hover {
+  opacity: 1;
+}
+
+img.hover3-shadow {
+  transition: 0.3s;
+}
+
+.hover3-shadow:hover {
+  box-shadow: 0 1vw 1.5vw 0 rgba(0, 0, 0, 0.2), 0 2vw 5vw 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------------------------*/
+
+/* The Modal 7 (background) */
+.modal7 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content7 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption7 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+  text-align: center;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  padding: 2vw 0;
+  height: 45vw;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content7,
+#caption7 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close7 {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  transition: 0.3s;
+}
+
+.close7:hover,
+.close7:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides7 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev7,
+.next7 {
+  cursor: pointer;
+  position: absolute;
+  top: 40vw;
+  width: auto;
+  padding: 4vw;
+  margin-top: -10vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next7 {
+  right: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+/* Position the "next button" to the right */
+.prev7 {
+  left: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev7:hover,
+.next7:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext7 {
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  font-size: 2vw;
+  padding: 1.5vw 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+/* Caption text */
+.caption7-container {
+  text-align: center;
+  background-color: black;
+  padding: 1vw 3vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+}
+
+img.demo7 {
+  opacity: 0.6;
+}
+
+.active7,
+.demo7:hover {
+  opacity: 1;
+}
+
+img.hover7-shadow {
+  transition: 0.3s;
+}
+
+.hover7-shadow:hover {
+  box-shadow: 0 1vw 1.5vw 0 rgba(0, 0, 0, 0.2), 0 2vw 5vw 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------------------------*/
+
+/* The Modal 5 (background) */
+.modal5 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content5 (Image) */
+.modal-content5 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption5 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+  text-align: center;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  padding: 2vw 0;
+  height: 45vw;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content5,
+#caption {
+  animation-name: zoom5;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom5 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close5 {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  transition: 0.3s;
+}
+
+.close5:hover,
+.close5:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides5 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev5,
+.next5 {
+  cursor: pointer;
+  position: absolute;
+  top: 40vw;
+  width: auto;
+  padding: 4vw;
+  margin-top: -10vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next5 {
+  right: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev5:hover,
+.next5:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext5 {
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  font-size: 2vw;
+  padding: 1.5vw 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+/* Caption text */
+.caption5-container {
+  text-align: center;
+  background-color: black;
+  padding: 1vw 3vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+}
+
+img.demo5 {
+  opacity: 0.6;
+}
+
+.active5,
+.demo5:hover {
+  opacity: 1;
+}
+
+img.hover5-shadow {
+  transition: 0.3s;
+}
+
+.hover5-shadow:hover {
+  box-shadow: 0 1vw 1.5vw 0 rgba(0, 0, 0, 0.2), 0 2vw 5vw 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------------------------*/
+
+/* The Modal 6 (background) */
+.modal6 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content6 (Image) */
+.modal-content6 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption6 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+  text-align: center;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  padding: 2vw 0;
+  height: 45vw;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content6,
+#caption {
+  animation-name: zoom6;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom6 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close6 {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  transition: 0.3s;
+}
+
+.close6:hover,
+.close6:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides6 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev6,
+.next6 {
+  cursor: pointer;
+  position: absolute;
+  top: 40vw;
+  width: auto;
+  padding: 4vw;
+  margin-top: -10vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next6 {
+  right: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+/* Position the "next button" to the right */
+.prev6 {
+  left: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev6:hover,
+.next6:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext6 {
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  font-size: 2vw;
+  padding: 1.5vw 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+/* Caption text */
+.caption6-container {
+  text-align: center;
+  background-color: black;
+  padding: 1vw 3vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+}
+
+img.demo6 {
+  opacity: 0.6;
+}
+
+.active6,
+.demo6:hover {
+  opacity: 1;
+}
+
+img.hover6-shadow {
+  transition: 0.3s;
+}
+
+.hover6-shadow:hover {
+  box-shadow: 0 1vw 1.5vw 0 rgba(0, 0, 0, 0.2), 0 2vw 5vw 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------------------------*/
+
+/* The Modal 4 (background) */
+.modal4 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content4 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption4 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+  text-align: center;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  padding: 2vw 0;
+  height: 45vw;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content4,
+#caption4 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close4 {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  transition: 0.3s;
+}
+
+.close4:hover,
+.close4:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides4 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev4,
+.next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 40vw;
+  width: auto;
+  padding: 4vw;
+  margin-top: -10vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next4 {
+  right: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+/* Position the "next button" to the right */
+.prev4 {
+  left: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev4:hover,
+.next4:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext4 {
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  font-size: 2vw;
+  padding: 1.5vw 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+/* Caption text */
+.caption4-container {
+  text-align: center;
+  background-color: black;
+  padding: 1vw 3vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+}
+
+img.demo4 {
+  opacity: 0.6;
+}
+
+.active4,
+.demo4:hover {
+  opacity: 1;
+}
+
+img.hover4-shadow {
+  transition: 0.3s;
+}
+
+.hover4-shadow:hover {
+  box-shadow: 0 1vw 1.5vw 0 rgba(0, 0, 0, 0.2), 0 2vw 5vw 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------------------------*/
+
+/* The Modal 8 (background) */
+.modal8 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content8 (Image) */
+.modal-content8 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption8 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 75vw;
+  text-align: center;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  padding: 2vw 0;
+  height: 45vw;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content8,
+#caption {
+  animation-name: zoom5;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom5 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close8 {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  transition: 0.3s;
+}
+
+.close8:hover,
+.close8:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides8 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev8,
+.next8 {
+  cursor: pointer;
+  position: absolute;
+  top: 40vw;
+  width: auto;
+  padding: 4vw;
+  margin-top: -10vw;
+  transition: 0.6s ease;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next8 {
+  right: 2vw;
+  border-radius: 1vw 0 0 1vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev8:hover,
+.next8:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext8 {
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  font-size: 2vw;
+  padding: 1.5vw 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+}
+
+/* Caption text */
+.caption8-container {
+  text-align: center;
+  background-color: black;
+  padding: 1vw 3vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+}
+
+img.demo8 {
+  opacity: 0.6;
+}
+
+.active8,
+.demo5:hover {
+  opacity: 1;
+}
+
+img.hover8-shadow {
+  transition: 0.3s;
+}
+
+.hover8-shadow:hover {
+  box-shadow: 0 1vw 1.5vw 0 rgba(0, 0, 0, 0.2), 0 2vw 5vw 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------------------------*/
+
+.hamburger {
+  position: fixed;
+  margin-left: 85vw;
+  margin-bottom: 0vw;
+  margin-top: 1vw;
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 0;
+  width: 50vw;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 51vw;
+  top: -4vw;
+  overflow-y: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+
+.overlay-back {
+  position: absolute;
+  width: 100%; /* 100% width */
+  text-align: left; /* Centered text/links */
+  margin-left: 5vw;
+  margin-top: 5vw; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.overlay-content {
+  position: absolute;
+  width: 100%; /* 100% width */
+  text-align: left; /* Centered text/links */
+  margin-left: 7.5vw;
+  margin-top: 7.5vw; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 1vw;
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: Power Clear, sans-serif;
+  color: #8ca3ff;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover,
+.overlay a:focus {
+  font-family: Power Clear, sans-serif;
+  color: #ffffff;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 5vw;
+  left: 38vw;
+}
+
