@@ -25,7 +25,7 @@ img {
 
 .titl {
   position: absolute;
-  color: #8ca3ff;
+  color: #21c2e9;
   font-family: Lunar Escape;
   font-size: 5vw;
   font-style: normal;
@@ -42,7 +42,7 @@ img {
   margin: 5vw;
   font-size: 2vw;
   font-family: Power Clear, sans-serif;
-  color: #8ca3ff;
+  color: #21c2e9;
   text-align: left;
   margin-bottom: 10vw;
   margin-top: 10vw;
@@ -93,7 +93,7 @@ img {
   transform: translate(-45%, -50%);
     font-size: 2vw;
   font-family: Power Clear, sans-serif;
-  color: #8ca3ff;
+  color: #21c2e9;
 }
 
 
@@ -142,7 +142,7 @@ img {
   text-decoration: none;
   font-size: 2vw;
   font-family: Power Clear, sans-serif;
-  color: #8ca3ff;
+  color: #21c2e9;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 }
