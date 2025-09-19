@@ -29,7 +29,7 @@ img {
   margin-left: 25vw;
    margin-right: 25vw;
 }
-
+/*
 .anim {
     position: absolute;
     margin-top: 20vw;
@@ -41,14 +41,13 @@ img {
   animation-iteration-count: infinite;
 }
 
- /* The animation code */
 @keyframes logoAnim {
   0% {opacity: 100;}
   1% {opacity: 100;}
   100% {opacity: 0;}
 }
 
-
+*/
 .titl {
   position: absolute;
   color: #21c2e9;
