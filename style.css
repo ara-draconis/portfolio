@@ -1,5 +1,5 @@
 html {
-  background-color: #000000;
+  background-color: #31419f;
 }
 @font-face {
   font-family: Lunar Escape;
@@ -32,7 +32,7 @@ img {
 
 .titl {
   position: absolute;
-  color: #8ca3ff;
+  color: #21c2e9;
   font-family: Lunar Escape;
   font-size: 5vw;
   font-style: normal;
@@ -58,10 +58,10 @@ img {
   top: 0.1vw;
   left: 0.1vw;
   margin: 5vw;
-  color: #8ca3ff;
+  color: #21c2e9;
   font-size: 2vw;
   font-family: Power Clear, sans-serif;
-  color: #8ca3ff;
+  color: #21c2e9;
   text-align: left;
   margin-bottom: 5vw;
   margin-top: 7vw;
@@ -113,7 +113,7 @@ img {
   text-decoration: none;
   font-size: 2vw;
   font-family: Power Clear, sans-serif;
-  color: #8ca3ff;
+  color: #21c2e9;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
 }
