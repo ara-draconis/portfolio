@@ -37,8 +37,6 @@ img {
     margin-top: 20vw;
   margin-left: 25vw;
    margin-right: 25vw;
-}
-/*
     animation: logoAnim 24s infinite;
 }
 
@@ -47,7 +45,7 @@ img {
   0%,24% { opacity: 0%}
   25%,100% { opacity: 100%}
 }
-*/
+
 
 .titl {
   position: absolute;
