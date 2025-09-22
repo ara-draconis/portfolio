@@ -28,6 +28,17 @@ img {
     margin-top: 20vw;
   margin-left: 25vw;
    margin-right: 25vw;
+    animation-name: logoAnim;
+  animation-duration: 24s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logoAnim {
+  0.1% {Filter: opacity(0%);}
+  24.9% {filter: opacity(0%);}
+  25% {filter: opacity(100%);}
+  100% {filter: opacity(100%);}
 }
 
 .anim {
@@ -35,19 +46,7 @@ img {
     margin-top: 20vw;
   margin-left: 25vw;
    margin-right: 25vw;
-  animation-name: logoAnim;
-  animation-duration: 24s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
 }
-
-@keyframes logoAnim {
-  0.1% {opacity: 100;}
-  24.9% {opacity: 100;}
-  25% {opacity: 0;}
-  100% {opacity: 0;}
-}
-
 
 .titl {
   position: absolute;
