@@ -29,25 +29,26 @@ img {
   margin-left: 25vw;
    margin-right: 25vw;
 }
-/*
+
 .anim {
     position: absolute;
     margin-top: 20vw;
   margin-left: 25vw;
    margin-right: 25vw;
   animation-name: logoAnim;
-  animation-duration: 7s;
-  animation-delay: -6s;
+  animation-duration: 24s;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
 }
 
 @keyframes logoAnim {
-  0% {opacity: 100;}
-  1% {opacity: 100;}
+  0.1% {opacity: 100;}
+  24.9% {opacity: 100;}
+  25% {opacity: 0;}
   100% {opacity: 0;}
 }
 
-*/
+
 .titl {
   position: absolute;
   color: #21c2e9;
