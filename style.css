@@ -23,6 +23,14 @@ img {
   width: 100%;
 }
 
+
+.anim {
+    position: absolute;
+    margin-top: 20vw;
+  margin-left: 25vw;
+   margin-right: 25vw;
+}
+
 .logo {
   position: absolute;
     margin-top: 20vw;
@@ -35,13 +43,6 @@ img {
 @keyframes logoAnim {
   0%,24% { opacity: 0%}
   25%,100% { opacity: 100%}
-}
-
-.anim {
-    position: absolute;
-    margin-top: 20vw;
-  margin-left: 25vw;
-   margin-right: 25vw;
 }
 
 .titl {
