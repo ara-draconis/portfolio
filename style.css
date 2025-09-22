@@ -33,8 +33,8 @@ img {
 
 
 @keyframes logoAnim {
-  0%,24% {Filter: opacity(0%);}
-  25%,100% {filter: opacity(100%);}
+  0%,24% { opacity: 0%}
+  25%,100% { opacity: 100%}
 }
 
 .anim {
