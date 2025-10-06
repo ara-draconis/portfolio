@@ -24,18 +24,20 @@ img {
 }
 
 .anima {
+    display: block;
     position: absolute;
     margin-top: 20vw;
-  margin-left: 25vw;
-   margin-right: 25vw;
+  margin-left: 5vw;
+   margin-right: 5vw;
   opacity: 100%; 
 }
 
 .logo {
+  display: block;
   position: absolute;
     margin-top: 20vw;
-  margin-left: 25vw;
-   margin-right: 25vw;
+  margin-left: 5vw;
+   margin-right: 5vw;
     animation: logoAnim 24s infinite;
 }
 
