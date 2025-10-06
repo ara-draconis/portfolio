@@ -27,6 +27,8 @@ img {
     display: block;
     position: absolute;
     margin-top: 20vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 justify-self: center;
   opacity: 100%; 
 }
@@ -35,6 +37,8 @@ justify-self: center;
   display: block;
   position: absolute;
     margin-top: 20vw;
+    margin-left: 15vw;
+  margin-right: 15vw;
 justify-self: center;
     animation: logoAnim 24s infinite;
 }
