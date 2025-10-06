@@ -27,7 +27,7 @@ img {
     display: block;
     position: absolute;
     margin-top: 20vw;
-  margin-left: 15vw;
+  margin-left: 5vw;
   margin-right: 25vw;
 justify-self: center;
   opacity: 100%; 
@@ -37,7 +37,7 @@ justify-self: center;
   display: block;
   position: absolute;
     margin-top: 20vw;
-    margin-left: 15vw;
+    margin-left: 5vw;
   margin-right: 25vw;
 justify-self: center;
     animation: logoAnim 24s infinite;
