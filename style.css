@@ -31,10 +31,11 @@ align-self: center;
 }
 
 .logo {
-  position: absolute;
-  padding: 3vw;
-align-self: center;
-    animation: logoAnim 24s infinite;
+  position: relative;
+  z-index: -1;
+  width: 75vw;
+  top: 20vh;
+  animation: logoAnim 24s infinite;
 }
 
 
