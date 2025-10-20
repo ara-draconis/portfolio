@@ -26,14 +26,16 @@ img {
 .anima {
     display: block;
     position: absolute;
-justify-self: left;
+    margin-top: 3vw;
+justify-self: start;
   opacity: 100%; 
 }
 
 .logo {
   display: block;
   position: absolute;
-justify-self: left;
+  margin-top: 3vw;
+justify-self: start;
     animation: logoAnim 24s infinite;
 }
 
