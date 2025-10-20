@@ -42,7 +42,7 @@ img {
 
 
 @keyframes logoAnim {
-  0%,24% { opacity: 0%}
+  0%,24.5% { opacity: 0%}
   25%,100% { opacity: 100%}
 }
 
