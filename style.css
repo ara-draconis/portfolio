@@ -26,14 +26,14 @@ img {
 .anima {
     display: block;
     position: absolute;
-justify-self: center;
+justify-self: left;
   opacity: 100%; 
 }
 
 .logo {
   display: block;
   position: absolute;
-justify-self: center;
+justify-self: left;
     animation: logoAnim 24s infinite;
 }
 
