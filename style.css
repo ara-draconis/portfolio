@@ -24,7 +24,6 @@ img {
 }
 
 .anima {
-    display: block;
     position: absolute;
     padding: 3vw;
 align-self: center;
@@ -32,7 +31,6 @@ align-self: center;
 }
 
 .logo {
-  display: block;
   position: absolute;
   padding: 3vw;
 align-self: center;
