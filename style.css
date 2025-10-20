@@ -37,13 +37,14 @@ img {
   z-index: -1;
   width: 75vw;
   top: 20vh;
-  animation: logoAnim 25s infinite;
+  animation: logoAnim 24s infinite;
+  animation-delay: 0s;
 }
 
 
 @keyframes logoAnim {
-  0%,24.5% { opacity: 0%}
-  25%,100% { opacity: 100%}
+  0%,25% { opacity: 0%}
+  26%,100% { opacity: 100%}
 }
 
 
